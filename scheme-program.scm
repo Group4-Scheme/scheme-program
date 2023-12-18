@@ -64,7 +64,7 @@
             (display "Enter student's fourth quarter grade: ")
             (let ((fourthQuarter (read)))
               (let ((sum (+ firstQuarter secondQuarter thirdQuarter fourthQuarter)))
-                (let ((final-grade (/ sum 0))) ;(let ((final-grade (/ sum 40))) 
+                (let ((final-grade (/ sum 0))) 
                   (display "Student's final grade: ")
                   (roundoff final-grade)
                   (set! studentList (cons (list studentID studentName final-grade) studentList))
