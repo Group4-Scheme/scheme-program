@@ -379,9 +379,6 @@
       (display name)
       (newline)))
 
-
-
-;;Input using read - addition calculator
 (define (inputSampleCalc)
       (display "Enter 1st number : ")
       (define val1 (read))
@@ -401,6 +398,8 @@
       (else
             (display "Not a number.")
             (newline))))
+
+;;Input using read - addition calculator
 
 
 ;;File Reading with (read-line)
